@@ -12,4 +12,4 @@ Installation
 
 Insert the line below into your Podfile:
 
-       pod 'MBLogging', :git => 'https://github.com/bananita/MBLogging.git', :branch = 'master'
+ pod 'MBLogging', :git => 'https://github.com/bananita/MBLogging.git', :branch = 'master'
