@@ -13,3 +13,10 @@ Installation
 Insert the line below into your Podfile:
 
     pod 'MBLogging', :git => 'https://github.com/bananita/MBLogging.git', :branch = 'master'
+
+Next insert import to your application prefix file (.pch)
+    #ifdef __OBJC__
+    . . .
+    #import <MBLogging/MBLogging.h>
+    . . .
+    #endif
