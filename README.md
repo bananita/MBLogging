@@ -21,3 +21,13 @@ Next insert import to your application prefix file (.pch):
     #import <MBLogging/MBLogging.h>
     . . .
     #endif
+
+Contributing
+------------
+If you'd like to contribute code, fork
+the project at [github](https://github.com/bananita/mblogging), make your changes,
+then send a pull request.
+
+License
+-------
+This code is free to use under the terms of the MIT license.
