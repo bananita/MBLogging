@@ -12,7 +12,7 @@ Installation
 
 Insert the line below into your Podfile:
 
-    pod 'MBLogging', :git => 'https://github.com/bananita/MBLogging.git', :branch = 'master'
+    pod 'MBLogging', :git => 'https://github.com/bananita/MBLogging.git', :tag => '0.1.0'
 
 Next insert import to your application prefix file (.pch)
     #ifdef __OBJC__
