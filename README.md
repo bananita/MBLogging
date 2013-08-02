@@ -14,9 +14,20 @@ Insert the line below into your Podfile:
 
     pod 'MBLogging', :git => 'https://github.com/bananita/MBLogging.git', :tag => '0.1.0'
 
-Next insert import to your application prefix file (.pch)
+Next insert import to your application prefix file (.pch):
+
     #ifdef __OBJC__
     . . .
     #import <MBLogging/MBLogging.h>
     . . .
     #endif
+
+Contributing
+------------
+If you'd like to contribute code, fork
+the project at [github](https://github.com/bananita/mblogging), make your changes,
+then send a pull request.
+
+License
+-------
+This code is free to use under the terms of the MIT license.
